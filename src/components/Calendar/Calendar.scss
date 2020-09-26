@@ -1,0 +1,81 @@
+.calendar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto;
+  background: #272829;
+
+  @media screen and (max-width: 768px) {
+    padding: 35px 0;
+  }
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  &__arrow {
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid #DFDFDF;
+    border-right: 2px solid #DFDFDF;
+    cursor: pointer;
+    align-self: center;
+
+    &:hover {
+      border-color: darken(#DFDFDF, 20%);
+    }
+  }
+
+  &__arrow-left {
+    transform: rotate(-135deg);
+    margin-left: 5px;
+  }
+
+  &__arrow-right {
+    transform: rotate(45deg);
+    margin-right: 5px;
+  }
+
+  &__month-label {
+    font-family: Rubic, sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+    color: #DFDFDF;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+
+  &__month {
+    border-bottom: 1px solid #ccc;
+  }
+
+  &__day-rows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+
+    border-bottom: 1px solid #ccc;
+  }
+
+  &__days-names {
+    font-size: 20px;
+    line-height: 60px;
+    width: 51px;
+
+    @media screen and (max-width: 400px) {
+      line-height: 40px;
+       width: 40px;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}

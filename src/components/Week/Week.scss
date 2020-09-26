@@ -1,0 +1,12 @@
+.week {
+  &__row {
+    display: flex;
+    text-align: center;
+
+    margin-bottom: 14px;
+
+    &:last-child {
+      margin-bottom: 30px;
+    }
+  }
+}

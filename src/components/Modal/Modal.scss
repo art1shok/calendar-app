@@ -1,0 +1,111 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #272829;
+    opacity: 0.85;
+    cursor: pointer;
+  }
+
+  &__container {
+    max-width: 510px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    padding: 30px 25px 25px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: #fbfbfb;
+    box-shadow: 10px 10px 20px #131819ad;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  &__close {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    color: #3d3d3d;
+    background-color: #fdd000;
+    align-self: flex-end;
+    border: none;
+    outline: none;
+    font-size: 0;
+
+    &:hover {
+      background-color: darken(#fdd000, 20%);
+    }
+
+    &::before,
+    &::after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: block;
+      width: 15px;
+      height: 1px;
+      background-color: #000;
+      content: '';
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    &::after {
+      transform: translate(-50%, -50%) rotate(135deg);
+    }
+  }
+  &__input-container {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child){
+      margin-right: 20px;
+      @media screen and (max-width: 768px) {
+        margin: 0;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-top: 20px;
+    }
+  }
+
+  &__label {
+    font-family: Rubic, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    color: #a2a2a2;
+  }
+
+  &__input {
+    width: 100%;
+    max-width: 220px;
+    padding: 14px 0 14px 20px;
+    margin-top: 8px;
+    font-family: Rubic, sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.4px;
+    color: #3D3D3D;
+    border: 2px solid #fdd000;
+
+    @media screen and (max-width: 768px) {
+      max-width: 500px;
+    }
+  }
+}
