@@ -10,11 +10,11 @@ const Header = () => (
       <nav className="page-header__nav">
         <ul className="page-header__nav-list">
           <li className="page-header__nav-item">
-            <NavLink to="/home" className="page-header__nav-link">Home</NavLink>
+            <NavLink to="/werdevs-test/home" className="page-header__nav-link">Home</NavLink>
           </li>
 
           <li className="page-header__nav-item">
-            <NavLink to="/about-us" className="page-header__nav-link">About Us</NavLink>
+            <NavLink to="/werdevs-test/about-us" className="page-header__nav-link">About Us</NavLink>
           </li>
         </ul>
       </nav>

@@ -13,8 +13,8 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route path="/home" exact component={HomePage} />
-          <Route path="/about-us" component={AboutUs} />
+          <Route path="/werdevs-test/home" exact component={HomePage} />
+          <Route path="/werdevs-test/about-us" component={AboutUs} />
           <Redirect from="*" to="home" />
         </Switch>
       </BrowserRouter>
