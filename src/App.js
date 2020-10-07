@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <Route path="/werdevs-test/home" exact component={HomePage} />
           <Route path="/werdevs-test/about-us" component={AboutUs} />
-          <Redirect from="*" to="home" />
+          <Redirect from="*" to="/werdevs-test/home" />
         </Switch>
       </BrowserRouter>
     </div>
