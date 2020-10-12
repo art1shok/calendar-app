@@ -1,2 +1,2 @@
-##[Calendar app written on React](https://art1shok.github.io/werdevs-test)
+##[Calendar app](https://art1shok.github.io/calendar-app)  written on React
 
