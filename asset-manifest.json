@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/werdevs-test/static/css/main.8fc27954.chunk.css",
-    "main.js": "/werdevs-test/static/js/main.0ee5f1de.chunk.js",
-    "main.js.map": "/werdevs-test/static/js/main.0ee5f1de.chunk.js.map",
-    "runtime-main.js": "/werdevs-test/static/js/runtime-main.963d5a00.js",
-    "runtime-main.js.map": "/werdevs-test/static/js/runtime-main.963d5a00.js.map",
-    "static/js/2.5f283d28.chunk.js": "/werdevs-test/static/js/2.5f283d28.chunk.js",
-    "static/js/2.5f283d28.chunk.js.map": "/werdevs-test/static/js/2.5f283d28.chunk.js.map",
-    "index.html": "/werdevs-test/index.html",
-    "precache-manifest.2c4565665ca69c2877a89166490060d7.js": "/werdevs-test/precache-manifest.2c4565665ca69c2877a89166490060d7.js",
-    "service-worker.js": "/werdevs-test/service-worker.js",
-    "static/css/main.8fc27954.chunk.css.map": "/werdevs-test/static/css/main.8fc27954.chunk.css.map",
-    "static/js/2.5f283d28.chunk.js.LICENSE.txt": "/werdevs-test/static/js/2.5f283d28.chunk.js.LICENSE.txt",
-    "static/media/HomePage.scss": "/werdevs-test/static/media/background-image.37a75b54.jpg",
-    "static/media/logo.jpg": "/werdevs-test/static/media/logo.c1b22935.jpg"
+    "main.css": "/calendar-app/static/css/main.faaf0be3.chunk.css",
+    "main.js": "/calendar-app/static/js/main.66c64a9d.chunk.js",
+    "main.js.map": "/calendar-app/static/js/main.66c64a9d.chunk.js.map",
+    "runtime-main.js": "/calendar-app/static/js/runtime-main.d170d573.js",
+    "runtime-main.js.map": "/calendar-app/static/js/runtime-main.d170d573.js.map",
+    "static/js/2.8f6fad81.chunk.js": "/calendar-app/static/js/2.8f6fad81.chunk.js",
+    "static/js/2.8f6fad81.chunk.js.map": "/calendar-app/static/js/2.8f6fad81.chunk.js.map",
+    "index.html": "/calendar-app/index.html",
+    "precache-manifest.09a37171e769cd1433133e7d5e659715.js": "/calendar-app/precache-manifest.09a37171e769cd1433133e7d5e659715.js",
+    "service-worker.js": "/calendar-app/service-worker.js",
+    "static/css/main.faaf0be3.chunk.css.map": "/calendar-app/static/css/main.faaf0be3.chunk.css.map",
+    "static/js/2.8f6fad81.chunk.js.LICENSE.txt": "/calendar-app/static/js/2.8f6fad81.chunk.js.LICENSE.txt",
+    "static/media/HomePage.scss": "/calendar-app/static/media/background-image.37a75b54.jpg",
+    "static/media/logo.svg": "/calendar-app/static/media/logo.1f447754.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.963d5a00.js",
-    "static/js/2.5f283d28.chunk.js",
-    "static/css/main.8fc27954.chunk.css",
-    "static/js/main.0ee5f1de.chunk.js"
+    "static/js/runtime-main.d170d573.js",
+    "static/js/2.8f6fad81.chunk.js",
+    "static/css/main.faaf0be3.chunk.css",
+    "static/js/main.66c64a9d.chunk.js"
   ]
 }
