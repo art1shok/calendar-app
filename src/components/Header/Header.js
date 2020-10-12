@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.scss';
 import { NavLink } from 'react-router-dom';
-import logo from '../../assets/images/logo.jpg';
+import logo from '../../assets/images/logo.svg';
 
 const Header = () => (
   <header className="page-header">
@@ -10,11 +10,11 @@ const Header = () => (
       <nav className="page-header__nav">
         <ul className="page-header__nav-list">
           <li className="page-header__nav-item">
-            <NavLink to="/werdevs-test/home" className="page-header__nav-link">Home</NavLink>
+            <NavLink to="/calendar-app/home" className="page-header__nav-link">Home</NavLink>
           </li>
 
           <li className="page-header__nav-item">
-            <NavLink to="/werdevs-test/about-us" className="page-header__nav-link">About Us</NavLink>
+            <NavLink to="/calendar-app/about-us" className="page-header__nav-link">About Us</NavLink>
           </li>
         </ul>
       </nav>

@@ -13,9 +13,9 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route path="/werdevs-test/home" exact component={HomePage} />
-          <Route path="/werdevs-test/about-us" component={AboutUs} />
-          <Redirect from="*" to="/werdevs-test/home" />
+          <Route path="/calendar-app/home" exact component={HomePage} />
+          <Route path="/calendar-app/about-us" component={AboutUs} />
+          <Redirect from="*" to="/calendar-app/home" />
         </Switch>
       </BrowserRouter>
     </div>
